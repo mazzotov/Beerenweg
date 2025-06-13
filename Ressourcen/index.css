@@ -180,7 +180,7 @@ padding: 5px;
 
 
 .Hero_Banner {
-  background-image: url(/Expose_Haus/Ressourcen/Bilder/Haus_Frontal.jpg);
+  background-image: url(Bilder/Haus_Frontal.jpg);
   background-size: cover; /* Skaliert das Bild, damit es den gesamten Container ausfüllt */
   background-position: center; /* Zentriert das Bild */
   background-repeat: no-repeat; /* Kein Wiederholen des Bildes */
