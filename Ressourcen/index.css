@@ -4,6 +4,9 @@ html {
   background-color: #FEFAEF;
 }
 
+html, body {
+  overflow-x: hidden;
+}
 
 footer{
   background-color: #281d2f;
