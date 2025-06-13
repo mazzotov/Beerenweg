@@ -4,210 +4,64 @@ html {
   background-color: #FEFAEF;
 }
 
-.Hero_Banner {
-  background-image: url(Bilder/Haus_Frontal.jpg);
-  background-size: cover; /* Skaliert das Bild, damit es den gesamten Container ausfüllt */
-  background-position: center; /* Zentriert das Bild */
-  background-repeat: no-repeat; /* Kein Wiederholen des Bildes */
+
+footer{
+  background-color: #281d2f;
+  color: rgb(159, 130, 164);
+  margin: 0; /* Fügt KEINEN zusätzlichen Abstand ein */
   display: flex; /* Macht aus dem Banner eine Flexbox */
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  color: white; /* textfarbe */
-  text-align: center;
-  padding-bottom: 70px;
-  border-radius: 5px; /* Rundet die Ecken mit 20px */
-  overflow: hidden;    /* Verhindert, dass der Inhalt über die runden Ecken hinausragt */
-}
-
-.verzierte-überschrift {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: lighter;
-  color: #44314F;
-  font-size: 25px;
-}
-
-#Überschrift_Hauptseite {
-  padding: 30px;
-  margin-top: 80px ;
-  font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
-  font-size: 80px;
-  color: #44314F;
-  background-color: rgba(255, 255, 255, 0.5); /* 50% transparent weiß */
-  border-radius: 20px;
-}
-
-#Text_Banner1 {
+  justify-content: space-between; /* Verteilt Elemente: links – mittig – rechts */
+  align-items: center; /* Vertikal ausrichten */
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 23px;
-  font-weight: lighter;
-}
-
-#Text_Banner2{
-  font-family: Raleway, Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  padding-bottom: 60px;
-  font-weight: 400;
-}
-
-#Besichtigung_Button {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;  /* Kein Unterstrich */
-  font-size: 14px;
-  color: white;
-  padding: 10px;
-  background-color: #44314F;
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 5px;
-}
-
-#Das_Haus_Schrifzug {
-  margin: 30px;
-}
-
-.Minibild_Galerie {
-  width: 300px;
-  height: auto;
-  margin: 20px;
-  border-radius: 5px;
-}
-
-
-.Mini-Galerie {
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-}
-
-.fließtext {
-  text-align: center;
-  margin: 0 100px;
-  font-family: "Raleway", serif;
-  font-size: 17px;
-
-}
-
-.Hauptseite_Button {
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;  /* Kein Unterstrich */
-  font-size: 14px;
-  color: white;
-  padding: 10px;
-  background-color: #44314F;
-  border: 1px;
-  border-style: solid;
-  border-color: white;
-  border-radius: 5px;
-  display: inline-block;
-  display: block;             /* Damit margin-left/right funktioniert */
-  width: fit-content;         /* Passt sich dem Inhalt an (sonst 100% Breite) */
-  margin-left: auto;          /* Schiebt den Button so weit wie möglich nach rechts */
-  margin-right: 110px;        /* Abstand zum rechten Rand */
-  margin-bottom: 30px;
-}
-
-.Umgebungsbanner {
-  background-color: #D1D8B6;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  border-radius: 5px;
-}
-
-
-.download-banner {
-  background-color: #D1D8B6;
-  padding-bottom: 40px;
-  padding-top: 20px;
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  border-radius: 5px;
-}
-
-#karte {
-border-radius: 10px;
-border-style: solid;
-border-color: black;
-border: 1px;
-margin-top: 30px;
-}
-
-.lokalitäten-hauptseite {
-  width: fit-content; 
-  justify-content: center; /* Zentriert den Inhalt horizontal */
-  align-items: normal;
-}
-
-.lokal_nebeneinander {
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  background-color: #FFF9EF;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  font-family: Raleway;
   font-size: small;
-  width: 180px;
-  height: 40px;
-  border-radius: 5px;
+  padding: 5px;
 }
 
-.lokal_nebeneinander_link {
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  align-items: center; /* Zentriert den Inhalt vertikal */
-  background-color: #44314F;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  font-family: Raleway;
-  font-size: small;
-  width: 180px;
-  height: 40px;
-  border-radius: 5px;
-
-}
-
-.mini-icon {
-  width: 25px;
-  margin-left: 2px;
-}
-
-#lage_überschrift {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 35px;
-  margin-left: 50px;
-  text-decoration: underline;
-  color: #3A4616;
-  
-}
-
-.text-rechtsbündig {
-  flex: 1;            /* Nimmt den verbleibenden Platz ein */
-  text-align: right;
-}
-
-#umgebungslink {
-  text-decoration: none;  /* Kein Unterstrich */
-  color: white;
-}
 
 h1 { 
   font-family: "Cormorant Garamond", serif;
   font-size: 35px;
-  margin-left: 60px;
   color: #45531b;
   font-weight: 500;
   text-decoration: underline;
+}
+
+li {
+padding: 5px;
+}
+
+
+
+
+
+
+/* ------------------ Klassen --------------------*/
+
+.beerenbild {
+  flex-shrink: 1;                /* Bilder dürfen kleiner werden */
+  max-width: 110px;
+  width: 100%;
+}
+.beerenbild img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+
+.beschaffenheit-liste {
+  display: flex;
+  justify-content: center;         /* Zentriert grob */
+  align-items: center;
+  gap: 100px;                      /* Mindestabstand zwischen Kindern */
+  padding: 20px;                  /* Etwas Luft außenrum */
+}
+
+
+.button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button-left {
@@ -220,86 +74,62 @@ h1 {
   cursor: pointer; 
 }
 
-.Ausstattung-und-downloads-box{
+.download-banner {
+  background-color: #D1D8B6;
   display: flex; /* Macht aus dem Banner eine Flexbox */
   justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.download-button{
+  font-family: Raleway;
+  background-color: #EDEFE1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: solid 1px #45531b;
+  cursor: pointer; 
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.download-button:hover {
+  background-color: #e7eccb;
+  border: solid 2px #45531b;
+  padding: 9px 19px;
+}
+
+
+.download-buttons {
+  display: flex;
+  flex-wrap: wrap;                /* Buttons umbrechen bei wenig Platz */
+  justify-content: center;        /* Buttons zentriert */
+  gap: 15px;
+}
+
+.download-inhalt {
+  display: flex;
+  flex-direction: column;         /* Überschrift über Buttons */
+  align-items: center;            /* Inhalt zentriert */
+  gap: 20px;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+
 }
 
-#Ausstattungsliste {
-  color: #3A4616;
+.fließtext {
+  text-align: center;
+  margin: 40px 400px 20px 400px;
   font-family: "Raleway", serif;
   font-size: 17px;
-}
 
-.liste-ohne-punkte {
-  list-style-type: none;
-  text-align: normal;
-  font-family: "Raleway", serif;
-  font-size: 17px;
-}
-
-.liste-ohne-punkte li::before {
-  content: "✓ "; /* Unicode-Haken oder Emoji */
-  color: #3A4616;  /* Farbe des Hakens */
-  margin-right: 8px; /* Abstand zum Text */
-}
-
-
-.liste-mit-anker {
-  list-style-type: none;
-  text-align: normal;
-  font-family: "Raleway", serif;
-  font-size: 17px;
-  margin-bottom: 100px;
-}
-
-
-.liste-mit-anker li::before {
-  content: "❧ "; /* Unicode-Haken oder Emoji */
-  color: #3A4616;  /* Farbe des Hakens */
-  margin-right: 8px; /* Abstand zum Text */
-  margin-left: 60px;
-}
-
-#Ausstattung-Überschrift{
-    text-align: center;
-    margin-right: 50px;
-    margin-top: 50px;
-}
-
-li {
-padding: 5px;
-}
-
-.beerenbild-links {
-  width: 100px;
-  margin-right: 100px;
-}
-
-.beerenbild-rechts {
-  width: 100px;
-  margin-left: 100px;
-}
-
-#trennlinie {
-  display: block; 
-  margin: 0 auto;
-  margin-top: 50px;
-  width: 800px;
-  opacity: 0.5;
-}
-
-footer{
-  background-color: #281d2f;
-  color: rgb(159, 130, 164);
-  margin: 0; /* Fügt KEINEN zusätzlichen Abstand ein */
-  display: flex; /* Macht aus dem Banner eine Flexbox */
-  justify-content: space-between; /* Verteilt Elemente: links – mittig – rechts */
-  align-items: center; /* Vertikal ausrichten */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  padding: 5px;
 }
 
 .footer-links {
@@ -327,9 +157,45 @@ footer{
 
 
 
-_____________
+.Hauptseite_Button {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;  /* Kein Unterstrich */
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  background-color: #44314F;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: inline-block;
+  display: block;             /* Damit margin-left/right funktioniert */     
+  margin-bottom: 30px;
+}
 
-/* Impressum-Styling */
+.Hauptseite_Button:hover {
+  cursor: pointer;             /* zeigt eine Hand an */
+  background-color: #663e7e;
+  padding: 9px;
+  border: 2px solid white;
+}
+
+
+.Hero_Banner {
+  background-image: url(/Expose_Haus/Ressourcen/Bilder/Haus_Frontal.jpg);
+  background-size: cover; /* Skaliert das Bild, damit es den gesamten Container ausfüllt */
+  background-position: center; /* Zentriert das Bild */
+  background-repeat: no-repeat; /* Kein Wiederholen des Bildes */
+  display: flex; /* Macht aus dem Banner eine Flexbox */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  border-radius: 5px; /* Rundet die Ecken mit 20px */
+  overflow: hidden;    /* Verhindert, dass der Inhalt über die runden Ecken hinausragt */
+}
+
+.Hero_Text {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
 .impressum-container {
   background-color: #FEFAEF;
   padding: 30px 100px;
@@ -351,10 +217,137 @@ _____________
   margin: 10px 0;
 }
 
+.inline-flex {
+  width: 50%;
+  margin: 0px 20px;
+}
+
+
 .kleines-bild {
   width: 200px;
   border: solid 1px black;
   margin-bottom: 40px;
+}
+
+
+.liste-ohne-punkte {
+  list-style-type: none;
+  text-align: left;
+  font-family: "Raleway", serif;
+  font-size: 17px;
+}
+
+.liste-ohne-punkte li::before {
+  content: "✓ "; /* Unicode-Haken oder Emoji */
+  color: #3A4616;  /* Farbe des Hakens */
+  margin-right: 8px; /* Abstand zum Text */
+  margin-left: 40px;
+}
+
+
+.liste-mit-anker {
+  list-style-type: none;
+  text-align: normal;
+  font-family: "Raleway", serif;
+  font-size: 17px;
+  margin-bottom: 100px;
+}
+
+
+.liste-mit-anker li::before {
+  content: "❧ "; /* Unicode-Haken oder Emoji */
+  color: #3A4616;  /* Farbe des Hakens */
+  margin-right: 8px; /* Abstand zum Text */
+  margin-left: 80px;
+}
+
+
+.lokalitäten-hauptseite {
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lokal_nebeneinander {
+  display: flex; /* Macht aus dem Banner eine Flexbox */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  background-color: #FFF9EF;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  font-family: Raleway;
+  font-size: small;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.lokal_nebeneinander_link {
+  display: flex; /* Macht aus dem Banner eine Flexbox */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  background-color: #44314F;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  font-family: Raleway;
+  font-size: small;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+
+}
+
+
+.Minibild_Galerie {
+  min-width: 300px;
+  max-width: 350px;
+  height: auto;
+  margin: 15px 30px;
+  border-radius: 5px;
+}
+
+
+.Mini-Galerie {
+  display: flex; /* Macht aus dem Banner eine Flexbox */
+  justify-content: center; /* Zentriert den Inhalt horizontal */
+  align-items: center; /* Zentriert den Inhalt vertikal */
+  flex-wrap: wrap;
+}
+
+
+.mini-icon {
+  width: 25px;
+  margin-left: 2px;
+}
+
+.mitteltext{
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.text-rechtsbündig {
+  flex: 1;            /* Nimmt den verbleibenden Platz ein */
+  text-align: right;
+}
+
+
+.Umgebungsbanner {
+  background-color: #D1D8B6;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+
+.verzierte-überschrift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: lighter;
+  color: #44314F;
+  font-size: 25px;
 }
 
 .zentrierter-inhalt{
@@ -362,4 +355,200 @@ _____________
   align-items: center; /* Vertikal ausrichten */
   justify-content: center; /* Zentriert den Inhalt horizontal */
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ ID's --------------------*/
+
+
+
+
+#Ausstattungsliste {
+  color: #3A4616;
+  font-family: "Raleway", serif;
+  font-size: 17px;
+  min-width: 480px;
+  flex-shrink: 0;                /* ❗ Darf nicht kleiner als 480px werden */
+  margin: 0;
+}
+
+
+#Ausstattung-Überschrift{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+#Besichtigung_Button {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;  /* Kein Unterstrich */
+  font-size: 14px;
+  color: white;
+  padding: 10px;
+  background-color: #44314F;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#Besichtigung_Button:hover {
+  cursor: pointer;             /* zeigt eine Hand an */
+  transition: 0.3s ease;       /* weicher Übergang */
+  background-color: #663e7e;
+  padding: 9px;
+}
+
+
+
+#Das_Haus_Schrifzug {
+  margin: 30px;
+}
+
+
+#karte {
+  border: 0.5px solid grey;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#lage-button {
+  margin-top: 60px;
+}
+
+#lage_überschrift {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 35px;
+  text-decoration: underline;
+  color: #3A4616;
+  text-align: center;
+  margin-bottom: 60px;
+  
+}
+
+
+#Text_Banner1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: lighter;
+  color: white; /* textfarbe */
+  text-align: center;
+  margin: 30px 30px;
+}
+
+#Text_Banner2{
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  padding-bottom: 60px;
+  font-weight: 400;
+  color: white; /* textfarbe */
+  text-align: center;
+  margin: 0 30px;
+}
+
+#trennlinie {
+  display: block; 
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 800px;
+  opacity: 0.5;
+}
+
+
+#umgebungslink {
+  text-decoration: none;  /* Kein Unterstrich */
+  color: white;
+}
+
+#Überschrift_Hauptseite {
+  text-align: center;
+  padding: 30px;
+  margin: 80px 20px 0px 20px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 400;
+  font-size: 80px;
+  /*color: #44314F; */
+  color: #513363;
+  background-color: rgba(255, 255, 255, 0.5); /* 50% transparent weiß */
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+
+.fließtext {
+  margin: 50px 200px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+
+.beerenbild img {
+  display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 800px) {
+
+.fließtext {
+  margin: 50px 60px;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+.inline-flex {
+  width: 100%;
+  margin: 0px 20px;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+
+.fließtext {
+  margin: 30px 20px;
+}
+
+#Text_Banner1 {
+font-size: 20px;
+}
+
+#Text_Banner2{
+font-size: 18px;
+}
+
+#Überschrift_Hauptseite {
+font-size: 50px;
+}
+
 }
