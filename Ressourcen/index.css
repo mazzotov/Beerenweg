@@ -107,6 +107,7 @@ padding: 5px;
   flex-wrap: wrap;                /* Buttons umbrechen bei wenig Platz */
   justify-content: center;        /* Buttons zentriert */
   gap: 15px;
+  margin: 0px 20px;
 }
 
 .download-inhalt {
